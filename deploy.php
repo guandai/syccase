@@ -23,5 +23,5 @@ shell_exec('cd /home2/yywqfyte/public_html && git reset --hard && git pull origi
 // Log the deployment
 file_put_contents('deploy.log', date('Y-m-d H:i:s') . " - Deployment triggered\n", FILE_APPEND);
 
-echo 'Deployment successful';
+echo 'Deployment successful!';
 ?>
