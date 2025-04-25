@@ -2,7 +2,7 @@
 // filepath: public_html/deploy.php
 
 // Secret token from GitHub webhook (set this in your GitHub webhook settings)
-$secret = '123456';
+$secret = '';
 
 // Get the payload from GitHub
 $payload = file_get_contents('php://input');
