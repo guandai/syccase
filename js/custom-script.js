@@ -1,1 +1,1 @@
-console.log(`1234999111`);
+console.log(`load syccase-addon`);
